@@ -170,6 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-skill-label {
 	display: table;
+	border-collapse: collapse;
 	float: left;
 	width: 25%;
 	height: 24px;
