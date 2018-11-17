@@ -169,18 +169,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-skill-label {
+	display: table;
 	float: left;
 	width: 25%;
-	height: 20px;
-	line-height: 12px;
+	height: 24px;
+  	text-align: center;
+}
+
+.about-skill-label > span {
 	font-size: 12px;
+	display: table-cell;
+	vertical-align: middle;
 	font-weight: bold;
-	text-align: center;
 }
 
 .progress {
 	border-radius: 0px;
-	height: 20px;
+	height: 24px;
 }
 
 
