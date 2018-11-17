@@ -12,6 +12,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
+h1 {
+	font-size: 6vw;
+}
+
+h2 {
+	font-size: 5vw;
+}
+
 /*start for testing only*/
 
 [class*="col-"] {
@@ -77,6 +85,12 @@ h1, h2, h3, h4, h5, h6 {
 .font-color-secondary {
 	color: #E31B6D;
 }
+
+.font-fade {
+	opacity: 0.5;
+	font-weight: 300;
+}
+
 /*end font colors*/
 
 /*end colors*/
@@ -85,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 /*start navbar*/
 
 .navbar {
-
+	/*nothing so far*/
 }
 
 .navbar-accent {
@@ -172,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: table;
 	border-collapse: collapse;
 	float: left;
-	width: 25%;
+	width: 32%;
 	height: 24px;
   	text-align: center;
 }
@@ -282,7 +296,44 @@ h1, h2, h3, h4, h5, h6 {
 /*end about*/
 
 
+/*start footer*/
 
+a[class*="social-"] {
+	height: 25px;
+	width: 25px;
+	padding: 6px;
+}
+
+a[class*="social-"] > img {
+	height: 25px;
+	width: 25px;
+}
+
+/*end footer*/
+
+
+/*media queries*/
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	h1 {
+		font-size: 5vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	h1 {
+		font-size: 4vw;
+	}
+
+	h2 {
+		font-size: 3vw;
+	}
+}
 
 
 
