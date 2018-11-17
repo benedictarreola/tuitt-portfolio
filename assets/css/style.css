@@ -1,0 +1,305 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+/*start for testing only*/
+
+[class*="col-"] {
+	/*border: 1px solid black;*/
+}
+
+/*end for testing only*/
+
+/*start colors*/
+
+/*start background colors*/
+.bg-color-black {
+	background-color: #1B242F;
+}
+
+.bg-color-black-2 {
+	background-color: #252934;
+}
+
+.bg-color-white {
+	background-color: #FFFFFF;
+}
+
+.bg-color-white-2 {
+	background-color: #F5F5F5;
+}
+
+.bg-color-main {
+	background-color: #05C2C9;
+}
+
+.bg-color-main-2 {
+	background-color: #00A1A7;
+}
+
+.bg-color-secondary {
+	background-color: #E31B6D;
+}
+/*end background colors*/
+
+/*start font colors*/
+
+.font-color-heading {
+	color: #444649;
+}
+
+.font-color-black {
+	color: #6F6F6F;
+}
+
+.font-color-white {
+	color: #FFFFFF;
+}
+
+.font-color-main {
+	color: #05C2C9;
+}
+
+.font-color-main-2 {
+	color: #00A1A7;
+}
+
+.font-color-secondary {
+	color: #E31B6D;
+}
+/*end font colors*/
+
+/*end colors*/
+
+
+/*start navbar*/
+
+.navbar {
+
+}
+
+.navbar-accent {
+	border-bottom: 5px solid #05C2C9;
+}
+
+.navbar-toggler-icon {
+	background-image: url(../images/icons/bars-solid.svg);
+	text-align: left;
+}
+
+.nav-link:focus {
+	color: white;
+}
+
+/*end navbar*/
+
+/*start home*/
+
+#home {
+	height: 100vh;
+	background-image: url(../images/home/home-bg.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.home-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.home-btn {
+	background-color: none;
+	border: 2px solid white;
+	border-radius: 0%;
+	color: white;
+	font-weight: 500;
+}
+
+.home-btn:visited {
+	color: white;
+}
+
+.home-btn:hover {
+	border: 2px solid#05C2C9;
+	background-color: #05C2C9;
+}
+
+/*end home*/
+
+/*start about*/
+
+.about {
+	/*nothing so far*/
+}
+
+.about-title {
+	/*nothing so far*/
+}
+
+.about-heading {
+	text-align: center;
+}
+
+.about-me {
+	/*nothing so far*/
+}
+
+.about-me-pic {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.about-skill-holder {
+	width: 100%;
+}
+
+.about-skill-label {
+	float: left;
+	width: 25%;
+	height: 20px;
+	line-height: 12px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.progress {
+	border-radius: 0px;
+	height: 20px;
+}
+
+
+.about-skill-10 {
+	width: 10%;
+}
+
+.about-skill-10:after {
+	content: "10%";
+}
+
+
+.about-skill-20 {
+	width: 20%;
+}
+
+.about-skill-20:after {
+	content: "20%";
+}
+
+
+.about-skill-30 {
+	width: 30%;
+}
+
+.about-skill-30:after {
+	content: "30%";
+}
+
+
+.about-skill-40 {
+	width: 40%;
+}
+
+.about-skill-40:after {
+	content: "40%";
+}
+
+
+.about-skill-50 {
+	width: 50%;
+}
+
+.about-skill-50:after {
+	content: "50%";
+}
+
+
+.about-skill-60 {
+	width: 60%;
+}
+
+.about-skill-60:after {
+	content: "60%";
+}
+
+
+.about-skill-70 {
+	width: 70%;
+}
+
+.about-skill-70:after {
+	content: "70%";
+}
+
+
+.about-skill-80 {
+	width: 80%;
+}
+
+.about-skill-80:after {
+	content: "80%";
+}
+
+
+.about-skill-90 {
+	width: 90%;
+}
+
+.about-skill-90:after {
+	content: "90%";
+}
+
+
+.about-skill-100 {
+	width: 100%;
+}
+
+.about-skill-100:after {
+	content: "100%";
+}
+
+/*end about*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
