@@ -151,6 +151,7 @@ h2 {
 .home-btn:hover {
 	border: 2px solid#05C2C9;
 	background-color: #05C2C9;
+	color: white;
 }
 
 /*end home*/
