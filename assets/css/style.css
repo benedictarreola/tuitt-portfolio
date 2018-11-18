@@ -130,9 +130,16 @@ h2 {
 	border-bottom: 5px solid #478CE9;
 }
 
+.navbar-toggler {
+	margin-left: auto;
+}
+
 .navbar-toggler-icon {
 	background-image: url(../images/icons/bars-solid.svg);
-	text-align: left;
+}
+
+.nav-link {
+	text-align: right;
 }
 
 .nav-link:focus {
@@ -143,7 +150,6 @@ h2 {
 
 
 /*start home*/
-
 #home {
 	height: 100vh;
 	background-image: url(../images/home/home-bg.jpeg);
@@ -178,12 +184,10 @@ h2 {
 	background-color: #478CE9;
 	color: white;
 }
-
 /*end home*/
 
 
 /*start about*/
-
 #about {
 	/*nothing so far*/
 }
@@ -455,6 +459,10 @@ a[class*="social-"] > img {
 
 	h2 {
 		font-size: 3vw;
+	}
+
+	.nav-link {
+		margin-right: 30px;
 	}
 }
 
