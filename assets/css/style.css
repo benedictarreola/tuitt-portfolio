@@ -5,6 +5,8 @@
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
 	scroll-behavior: smooth;
+	outline-style:none;
+	box-shadow:none;
 }
 
 
@@ -49,6 +51,10 @@ h2 {
 	background-color: #252934;
 }
 
+.bg-color-black-3 {
+	background-color: #1E242C;
+}
+
 .bg-color-white {
 	background-color: #FFFFFF;
 }
@@ -78,6 +84,14 @@ h2 {
 
 .font-color-black {
 	color: #6F6F6F;
+}
+
+.font-color-black-2 {
+	color: #252934;
+}
+
+.font-color-black-3 {
+	color: #1E242C;
 }
 
 .font-color-white {
@@ -148,7 +162,7 @@ h2 {
 }
 
 .home-btn {
-	background-color: none;
+	background-color: transparent;
 	border: 2px solid white;
 	border-radius: 0%;
 	color: white;
@@ -360,8 +374,45 @@ h2 {
 	/*nothing so far*/
 }
 
+.contact-form {
+	/*nothing so far*/
+}
+
 .contact-heading {
 	letter-spacing: 5px;
+}
+
+.contact-input {
+	border-radius: 0;
+	border: 0px solid transparent;
+}
+
+.contact-input:focus {
+	background-color: #1E242C;
+}
+
+.contact-input:active {
+	background-color: #1E242C;
+}
+
+.contact-btn {
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 0%;
+	color: white;
+	font-weight: 500;
+	width: 30%;
+	margin-left: auto;
+}
+
+.contact-btn:visited {
+	color: white;
+}
+
+.contact-btn:hover {
+	border: 2px solid #478CE9;
+	background-color: #478CE9;
+	color: white;
 }
 
 /*end contact*/
