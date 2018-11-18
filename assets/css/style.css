@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 6vw;
+	font-size: 5.75vw;
 }
 
 h2 {
@@ -22,9 +22,19 @@ h2 {
 
 /*start for testing only*/
 
-[class*="col-"] {
-	/*border: 1px solid black;*/
+/*[class*="col-"] {
+	border: 1px solid black;
+}*/
+
+/*html {
+    overflow: scroll;
+    overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent; 
+}*/
 
 /*end for testing only*/
 
@@ -48,15 +58,15 @@ h2 {
 }
 
 .bg-color-main {
-	background-color: #05C2C9;
+	background-color: #478CE9;
 }
 
 .bg-color-main-2 {
-	background-color: #00A1A7;
+	background-color: #517FBC;
 }
 
 .bg-color-secondary {
-	background-color: #E31B6D;
+	background-color: #E8983F;
 }
 /*end background colors*/
 
@@ -75,20 +85,20 @@ h2 {
 }
 
 .font-color-main {
-	color: #05C2C9;
+	color: #478CE9;
 }
 
 .font-color-main-2 {
-	color: #00A1A7;
+	color: #517FBC;
 }
 
 .font-color-secondary {
-	color: #E31B6D;
+	color: #E8983F;
 }
 
 .font-fade {
 	opacity: 0.5;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 /*end font colors*/
@@ -103,7 +113,7 @@ h2 {
 }
 
 .navbar-accent {
-	border-bottom: 5px solid #05C2C9;
+	border-bottom: 5px solid #478CE9;
 }
 
 .navbar-toggler-icon {
@@ -116,6 +126,7 @@ h2 {
 }
 
 /*end navbar*/
+
 
 /*start home*/
 
@@ -149,16 +160,17 @@ h2 {
 }
 
 .home-btn:hover {
-	border: 2px solid#05C2C9;
-	background-color: #05C2C9;
+	border: 2px solid #478CE9;
+	background-color: #478CE9;
 	color: white;
 }
 
 /*end home*/
 
+
 /*start about*/
 
-.about {
+#about {
 	/*nothing so far*/
 }
 
@@ -167,7 +179,7 @@ h2 {
 }
 
 .about-heading {
-	text-align: center;
+	letter-spacing: 5px;
 }
 
 .about-me {
@@ -297,12 +309,71 @@ h2 {
 /*end about*/
 
 
+/*start projects*/
+#projects {
+	/*nothing so far*/
+}
+
+.projects-title {
+	/*nothing so far*/
+}
+
+.projects-heading {
+	letter-spacing: 5px;
+}
+
+.projects-item {
+	/*nothing so far*/
+}
+
+.projects-item-pic {
+	width: 80%;
+}
+
+.projects-btn {
+	background-color: none;
+	border: 2px solid #E8983F;
+	width: 40%;
+	border-radius: 0%;
+	color: #E8983F;
+	font-weight: 500;
+}
+
+.projects-btn:visited {
+	color: #E8983F;
+}
+
+.projects-btn:hover {
+	border: 2px solid #E8983F;
+	background-color: #E8983F;
+	color: white;
+}
+/*end projects*/
+
+
+/*start contact*/
+#contact {
+	/*nothing so far*/
+}
+
+.contact-title {
+	/*nothing so far*/
+}
+
+.contact-heading {
+	letter-spacing: 5px;
+}
+
+/*end contact*/
+
+
 /*start footer*/
 
 a[class*="social-"] {
 	height: 25px;
 	width: 25px;
 	padding: 6px;
+	text-decoration: none;
 }
 
 a[class*="social-"] > img {
@@ -317,7 +388,7 @@ a[class*="social-"] > img {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	h1 {
-		font-size: 5vw;
+		font-size: 4.75vw;
 	}
 
 	h2 {
@@ -328,7 +399,7 @@ a[class*="social-"] > img {
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	h1 {
-		font-size: 4vw;
+		font-size: 3.75vw;
 	}
 
 	h2 {
