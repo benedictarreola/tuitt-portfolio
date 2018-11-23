@@ -22,13 +22,17 @@ h2 {
 	font-size: 5vw;
 }
 
+img {
+	/*pointer-events: none;*/
+}
+
 /*start for testing only*/
 
 /*[class*="col-"] {
 	border: 1px solid black;
 }*/
 
-/*html {
+html {
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -36,7 +40,7 @@ h2 {
 ::-webkit-scrollbar {
     width: 0px; 
     background: transparent; 
-}*/
+}
 
 /*end for testing only*/
 
@@ -127,7 +131,7 @@ h2 {
 }
 
 .navbar-accent {
-	border-bottom: 5px solid #478CE9;
+	border-bottom: 10px solid #478CE9;
 }
 
 .navbar-toggler {
@@ -152,11 +156,12 @@ h2 {
 /*start home*/
 #home {
 	height: 100vh;
-	background-image: url(../images/home/home-bg.jpeg);
+	/*background-image: url(../images/home/home-bg.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
+	position: relative;*/
+	background-color: black;
 }
 
 .home-box {
@@ -165,10 +170,6 @@ h2 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
-}
-
-.home-font-shadow {
-	text-shadow: 2px 2px rgba(0, 0, 0, 0.85);
 }
 
 .home-btn {
@@ -188,6 +189,7 @@ h2 {
 	background-color: #478CE9;
 	color: white;
 }
+
 /*end home*/
 
 
@@ -213,119 +215,15 @@ h2 {
 	border-radius: 50%;
 }
 
-.about-skill-holder {
-	width: 100%;
+.about-technologies {
+
 }
 
-.about-skill-label {
-	display: table;
-	border-collapse: collapse;
-	float: left;
-	width: 32%;
-	height: 24px;
-  	text-align: center;
-}
-
-.about-skill-label > span {
-	font-size: 12px;
-	display: table-cell;
-	vertical-align: middle;
-	font-weight: bold;
-}
-
-.progress {
-	border-radius: 0px;
-	height: 24px;
-}
-
-
-.about-skill-10 {
-	width: 10%;
-}
-
-.about-skill-10:after {
-	content: "10%";
-}
-
-
-.about-skill-20 {
-	width: 20%;
-}
-
-.about-skill-20:after {
-	content: "20%";
-}
-
-
-.about-skill-30 {
-	width: 30%;
-}
-
-.about-skill-30:after {
-	content: "30%";
-}
-
-
-.about-skill-40 {
-	width: 40%;
-}
-
-.about-skill-40:after {
-	content: "40%";
-}
-
-
-.about-skill-50 {
-	width: 50%;
-}
-
-.about-skill-50:after {
-	content: "50%";
-}
-
-
-.about-skill-60 {
-	width: 60%;
-}
-
-.about-skill-60:after {
-	content: "60%";
-}
-
-
-.about-skill-70 {
-	width: 70%;
-}
-
-.about-skill-70:after {
-	content: "70%";
-}
-
-
-.about-skill-80 {
-	width: 80%;
-}
-
-.about-skill-80:after {
-	content: "80%";
-}
-
-
-.about-skill-90 {
-	width: 90%;
-}
-
-.about-skill-90:after {
-	content: "90%";
-}
-
-
-.about-skill-100 {
-	width: 100%;
-}
-
-.about-skill-100:after {
-	content: "100%";
+.technologies-icon {
+	width: 17%;
+	height: 17%;
+	margin: 0 1.5%;
+	padding: 10px;
 }
 
 /*end about*/
@@ -369,6 +267,17 @@ h2 {
 	border: 2px solid #E8983F;
 	background-color: #E8983F;
 	color: white;
+}
+
+.projects-btn-unavailable {
+	background-color: none;
+	border: 2px solid #6F6F6F;
+	width: 40%;
+	border-radius: 0%;
+	color: #6F6F6F;
+	font-weight: 500;
+	pointer-events: none;
+	opacity: 0.5;
 }
 /*end projects*/
 
