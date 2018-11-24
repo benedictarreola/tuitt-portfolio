@@ -1207,15 +1207,15 @@
 /* Back Pulse */
 @-webkit-keyframes hvr-back-pulse {
   50% {
-    background-color: rgba(32, 152, 209, 0.75);
+    background-color: rgba(71, 140, 233, 0.3);
   }
 }
 @keyframes hvr-back-pulse {
   50% {
-    background-color: rgba(32, 152, 209, 0.75);
+    background-color: rgba(71, 140, 233, 0.3);
   }
 }
-.hvr-back-pulse {
+/*.hvr-back-pulse {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -1226,8 +1226,8 @@
   transition-duration: 0.5s;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
-}
-.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+}*/
+/*.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
   -webkit-animation-name: hvr-back-pulse;
   animation-name: hvr-back-pulse;
   -webkit-animation-duration: 1s;
@@ -1240,6 +1240,22 @@
   animation-iteration-count: infinite;
   background-color: #2098D1;
   background-color: #2098d1;
+  color: white;
+}*/
+
+.hvr-back-pulse {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #478CE9;
+  background-color: #478CE9;
   color: white;
 }
 

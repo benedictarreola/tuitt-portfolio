@@ -23,7 +23,7 @@ h2 {
 }
 
 img {
-	/*pointer-events: none;*/
+	pointer-events: none;
 }
 
 /*start for testing only*/
@@ -156,12 +156,22 @@ html {
 /*start home*/
 #home {
 	height: 100vh;
-	/*background-image: url(../images/home/home-bg.jpeg);
+	background-image: url(../images/home/home-bg.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;*/
-	background-color: black;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#home:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
 }
 
 .home-box {
@@ -220,10 +230,10 @@ html {
 }
 
 .technologies-icon {
-	width: 17%;
-	height: 17%;
-	margin: 0 1.5%;
-	padding: 10px;
+	width: 29.3%;
+	height: 29.3%;
+	margin: 0 2%;
+	padding: 2%;
 }
 
 /*end about*/
@@ -242,12 +252,8 @@ html {
 	letter-spacing: 5px;
 }
 
-.projects-item {
-	/*nothing so far*/
-}
-
 .projects-item-pic {
-	width: 80%;
+	width: 100%;
 }
 
 .projects-btn {
@@ -362,6 +368,13 @@ a[class*="social-"] > img {
 	h2 {
 		font-size: 4vw;
 	}
+
+	/*start about*/
+	.technologies-icon {
+		width: 21%;
+		height: 21%;
+	}
+	/*end about*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -377,6 +390,13 @@ a[class*="social-"] > img {
 	.nav-link {
 		margin-right: 30px;
 	}
+
+	/*start about*/
+	.technologies-icon {
+		width: 16%;
+		height: 16%;
+	}
+	/*end about*/
 }
 
 
