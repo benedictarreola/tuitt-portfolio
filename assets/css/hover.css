@@ -1207,12 +1207,12 @@
 /* Back Pulse */
 @-webkit-keyframes hvr-back-pulse {
   50% {
-    background-color: rgba(71, 140, 233, 0.3);
+    background-color: rgba(232, 152, 63, 0.3);
   }
 }
 @keyframes hvr-back-pulse {
   50% {
-    background-color: rgba(71, 140, 233, 0.3);
+    background-color: rgba(232, 152, 63, 0.3);
   }
 }
 /*.hvr-back-pulse {
@@ -1254,8 +1254,8 @@
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-color: #478CE9;
-  background-color: #478CE9;
+  background-color: #E8983F;
+  background-color: #E8983F;
   color: white;
 }
 
