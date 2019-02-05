@@ -285,6 +285,30 @@ html {
 	pointer-events: none;
 	opacity: 0.5;
 }
+
+.project-holder {
+	position: relative;
+	background-color: black;
+}
+
+.project-holder:hover > img {
+	opacity: 0.75;
+}
+
+.project-holder > .held {
+	display: none;
+}
+
+.project-holder:hover > .held {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #1B242F;
+}
+
 /*end projects*/
 
 
