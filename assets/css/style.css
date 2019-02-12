@@ -259,6 +259,7 @@ html {
 .projects-btn {
 	background-color: none;
 	border: 2px solid #E8983F;
+	width: 40%;
 	border-radius: 0%;
 	color: #E8983F;
 	font-weight: 500;
@@ -288,7 +289,6 @@ html {
 .project-holder {
 	position: relative;
 	background-color: black;
-	border-color: 5px solid white;
 }
 
 .project-holder:hover > img {
@@ -306,11 +306,7 @@ html {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: rgba(27,36,47, 0.75);
-}
-
-.list-group-item {
-	border-color: transparent;
+	background-color: #1B242F;
 }
 
 /*end projects*/
