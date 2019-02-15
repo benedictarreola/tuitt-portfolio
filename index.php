@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -54,7 +58,7 @@
 
 
 		<!-- start navbar -->
-		<nav class="navbar navbar-expand-lg bg-color-black navbar-accent sticky-top">
+		<nav class="navbar navbar-expand-sm bg-color-black navbar-accent sticky-top">
 
 			<!-- start navbar hamburger -->
 			<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar-selection-items">
@@ -115,7 +119,12 @@
 						<h4 class="font-color-black mb-3">Hey there!</h4>
 						<img class="about-me-pic mb-3" src="assets/images/about/about-pic.jpg" alt="benedict's picture">
 						<h5 class="font-color-black">This is me.</h5>
-						<p class="font-color-black text-justify">I'm a Web Developer currently living in Manila, Philippines. I graduated from De La Salle-College of Saint Benilde with a Bachelor of Science in Information Technology degree.</p> 
+						<p class="font-color-black text-justify">I'm a Web Developer currently living in Manila, Philippines. I graduated from De La Salle-College of Saint Benilde with a Bachelor of Science in Information Technology degree specializing in Game Development.</p>
+
+						<p class="font-color-black text-justify">I switched to web development because I got interested in it while working alongside a web developer in a company I worked for before. I was intrigued by how a website or web application was made. Working in Back-End is what I'm interested in the most but I'm not afraid to work with CSS.</p>
+
+						<p class="font-color-black text-justify">Here's a link to my resume if you wanna know more about my work history: <a href="https://docs.google.com/document/d/1JoxZMC9zPpondtD5dQP13nhvVha3ZjHr-G5KHuaIlxY/edit?usp=sharing" target="_blank">Ben's Resume</a></p>
+
 					</div>
 				</div> <!-- end about me -->
 
@@ -139,9 +148,13 @@
 							<img class="technologies-icon" src="assets/images/technologies/bootstrap-icon.svg" alt="bootstrap-icon">
 							<img class="technologies-icon" src="assets/images/technologies/javascript-icon.svg" alt="javascript-icon">
 							<img class="technologies-icon" src="assets/images/technologies/jquery-icon.svg" alt="jquery-icon">
+							<img class="technologies-icon" src="assets/images/technologies/nodejs-icon.svg" alt="nodejs-icon">
+							<img class="technologies-icon" src="assets/images/technologies/express-icon.svg" alt="express-icon">
 							<img class="technologies-icon" src="assets/images/technologies/mysql-icon.svg" alt="mysql-icon">
+							<img class="technologies-icon" src="assets/images/technologies/mongodb-icon.svg" alt="mongodb-icon">
 							<img class="technologies-icon" src="assets/images/technologies/php-icon.svg" alt="php-icon">
 							<img class="technologies-icon" src="assets/images/technologies/laravel-icon.svg" alt="laravel-icon">
+							<img class="technologies-icon" src="assets/images/technologies/cplusplus-icon.svg" alt="cplusplus-icon">
 							<img class="technologies-icon" src="assets/images/technologies/photoshop-icon.svg" alt="photoshop-icon">
 							<img class="technologies-icon" src="assets/images/technologies/illustrator-icon.svg" alt="illustrator-icon">
 							<img class="technologies-icon" src="assets/images/technologies/git-icon.svg" alt="git-icon">
@@ -149,6 +162,17 @@
 							<img class="technologies-icon" src="assets/images/technologies/gitlab-icon.svg" alt="gitlab-icon">
 							<img class="technologies-icon" src="assets/images/technologies/trello-icon.svg" alt="trello-icon">
 							<img class="technologies-icon" src="assets/images/technologies/visualstudio-icon.svg" alt="visualstudio-icon">
+							<!-- end technologies logo -->
+
+							<!-- start inner technologies heading -->
+							<div class="col-12">
+								<h4 class="font-color-black mt-5 mb-3 text-center">Education</h4>
+							</div> <!-- end inner technologies heading -->
+
+							<!-- start technologies logos -->
+							<img class="technologies-icon" src="assets/images/education/tuitt.png" alt="tuitt">
+							<img class="technologies-icon" src="assets/images/education/dls-csb.png" alt="de la salle - college of saint benilde">
+							<img class="technologies-icon" src="assets/images/education/dbti.png" alt="don bosco technical institute">
 							<!-- end technologies logo -->
 
 						</div> <!-- end inner technologies row -->
@@ -248,22 +272,31 @@
 
 				<!-- start contact form -->
 				<div class="contact-form col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-					<form action="mailto:benedictmartinii.arreola@gmail.com?Subject=Ben%20Arreola's%20Website%20-%20Message" method="post" enctype="text/plain" class="p-3">
-						<div class="input-group mb-1">
-							<input class="form-control contact-input bg-color-black-3" type="text" name="Name" placeholder="Your Name" autocomplete="off" required>
+					<form class="p-3">
+						<div class="input-group">
+							<input class="form-control contact-input bg-color-black-3 font-color" type="text" id="name" name="name" placeholder="Your Name" autocomplete="off" required>
+						</div>
+						<div class="text-right">
+							<span id="name-warning" class="text-danger"></span>
 						</div>
 
-						<div class="input-group mb-1">
-							<input class="form-control contact-input bg-color-black-3" type="email" name="Email" placeholder="Your Email" autocomplete="off" required>
+						<div class="input-group mt-1">
+							<input class="form-control contact-input bg-color-black-3" type="email" id="email" name="email" placeholder="Your Email" autocomplete="off" required>
+						</div>
+						<div class="text-right">
+							<span id="email-warning" class="text-danger"></span>
 						</div>
 
-						<div class="input-group mb-1">
-							<textarea class="form-control contact-input bg-color-black-3 mb-1" rows="10" name="Message" placeholder="Your Message" autocomplete="off" required></textarea>
+						<div class="input-group mt-1">
+							<textarea class="form-control contact-input bg-color-black-3 mb-1" rows="10" id="message" name="message" placeholder="Your Message" autocomplete="off" required></textarea>
+						</div>
+						<div class="text-right">
+							<span id="message-warning" class="text-danger"></span>
 						</div>
 
-						<div class="input-group mb-1">
+						<div class="input-group mt-2">
 							<!-- <input  class="btn contact-btn" type="submit" name="submit"> -->
-							<button class="btn contact-btn" type="submit">Submit</button>
+							<button id="message_btn" class="btn contact-btn" type="button">Submit</button>
 						</div>
 					</form>
 				</div> <!-- end contact form -->
@@ -324,6 +357,8 @@
 	    <script src="assets/js/jquery-3.3.1.min.js"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	    <script src="assets/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@8.0.7/dist/sweetalert2.all.min.js"></script>
+	    <script type="text/javascript" src="assets/js/script.js"></script>
 
 	</body>
 </html>
