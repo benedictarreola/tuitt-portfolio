@@ -46,7 +46,7 @@ $(document).ready( function() {
 			    complete: function(){
 			        swal.close();
 			        Swal.fire({
-			        	html: 'Successfully Sent. Please check your Email :)',
+			        	html: 'Successfully Sent. Please check your Email',
 			        	showConfirmButton: true,
 			        	confirmButtonClass: 'btn confirm-message-btn',
 			        	allowEnterKey: false
