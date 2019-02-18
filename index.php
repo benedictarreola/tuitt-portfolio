@@ -114,7 +114,7 @@
 				</div> <!-- end about title -->
 
 				<!-- start about me -->
-				<div class="about-me col-12 offset-0 col-md-10 offset-md-1 col-lg-4 offset-lg-1">
+				<div class="about-me col-12 offset-0 col-md-10 offset-md-1 col-lg-5 offset-lg-1">
 					<div class="text-center p-3">
 						<h4 class="font-color-black mb-3">Hey there!</h4>
 						<img class="about-me-pic mb-3" src="assets/images/about/about-pic.jpg" alt="benedict's picture">
@@ -129,55 +129,51 @@
 				</div> <!-- end about me -->
 
 				<!-- start about technologies -->
-				<div class="about-technologies col-12 offset-0 col-md-10 offset-md-1 col-lg-6 offset-lg-0">
-					
-					<!-- start about technologies holder -->
-					<div class="p-3">
+				<div class="about-technologies col-12 offset-0 col-md-10 offset-md-1 col-lg-5 offset-lg-0">
 
-						<!-- start inner technologies row -->
-						<div class="row no-gutters">
+					<!-- start inner technologies row -->
+					<div class="row no-gutters text-center">
 
-							<!-- start inner technologies heading -->
-							<div class="col-12">
-								<h4 class="font-color-black mb-3 text-center">Technologies</h4>
-							</div> <!-- end inner technologies heading -->
+						<!-- start inner technologies heading -->
+						<div class="col-12">
+							<h4 class="font-color-black mb-3 text-center">Technologies</h4>
+						</div> <!-- end inner technologies heading -->
 
-							<!-- start technologies logos -->
-							<img class="technologies-icon" src="assets/images/technologies/html5-icon.svg" alt="html5-icon">
-							<img class="technologies-icon" src="assets/images/technologies/css3-icon.svg" alt="css3-icon">
-							<img class="technologies-icon" src="assets/images/technologies/bootstrap-icon.svg" alt="bootstrap-icon">
-							<img class="technologies-icon" src="assets/images/technologies/javascript-icon.svg" alt="javascript-icon">
-							<img class="technologies-icon" src="assets/images/technologies/jquery-icon.svg" alt="jquery-icon">
-							<img class="technologies-icon" src="assets/images/technologies/nodejs-icon.svg" alt="nodejs-icon">
-							<img class="technologies-icon" src="assets/images/technologies/express-icon.svg" alt="express-icon">
-							<img class="technologies-icon" src="assets/images/technologies/mysql-icon.svg" alt="mysql-icon">
-							<img class="technologies-icon" src="assets/images/technologies/mongodb-icon.svg" alt="mongodb-icon">
-							<img class="technologies-icon" src="assets/images/technologies/php-icon.svg" alt="php-icon">
-							<img class="technologies-icon" src="assets/images/technologies/laravel-icon.svg" alt="laravel-icon">
-							<img class="technologies-icon" src="assets/images/technologies/cplusplus-icon.svg" alt="cplusplus-icon">
-							<img class="technologies-icon" src="assets/images/technologies/photoshop-icon.svg" alt="photoshop-icon">
-							<img class="technologies-icon" src="assets/images/technologies/illustrator-icon.svg" alt="illustrator-icon">
-							<img class="technologies-icon" src="assets/images/technologies/git-icon.svg" alt="git-icon">
-							<img class="technologies-icon" src="assets/images/technologies/github-icon.svg" alt="github-icon">
-							<img class="technologies-icon" src="assets/images/technologies/gitlab-icon.svg" alt="gitlab-icon">
-							<img class="technologies-icon" src="assets/images/technologies/trello-icon.svg" alt="trello-icon">
-							<img class="technologies-icon" src="assets/images/technologies/visualstudio-icon.svg" alt="visualstudio-icon">
-							<!-- end technologies logo -->
+						<!-- start technologies logos -->
+						<img class="technologies-icon" src="assets/images/technologies/html5-icon.svg" alt="html5-icon">
+						<img class="technologies-icon" src="assets/images/technologies/css3-icon.svg" alt="css3-icon">
+						<img class="technologies-icon" src="assets/images/technologies/bootstrap-icon.svg" alt="bootstrap-icon">
+						<img class="technologies-icon" src="assets/images/technologies/javascript-icon.svg" alt="javascript-icon">
+						<img class="technologies-icon" src="assets/images/technologies/jquery-icon.svg" alt="jquery-icon">
+						<img class="technologies-icon" src="assets/images/technologies/nodejs-icon.svg" alt="nodejs-icon">
+						<img class="technologies-icon" src="assets/images/technologies/express-icon.svg" alt="express-icon">
+						<img class="technologies-icon" src="assets/images/technologies/mysql-icon.svg" alt="mysql-icon">
+						<img class="technologies-icon" src="assets/images/technologies/mongodb-icon.svg" alt="mongodb-icon">
+						<img class="technologies-icon" src="assets/images/technologies/php-icon.svg" alt="php-icon">
+						<img class="technologies-icon" src="assets/images/technologies/laravel-icon.svg" alt="laravel-icon">
+						<img class="technologies-icon" src="assets/images/technologies/c-icon.svg" alt="c-icon">
+						<img class="technologies-icon" src="assets/images/technologies/cplusplus-icon.svg" alt="cplusplus-icon">
+						<img class="technologies-icon" src="assets/images/technologies/photoshop-icon.svg" alt="photoshop-icon">
+						<img class="technologies-icon" src="assets/images/technologies/illustrator-icon.svg" alt="illustrator-icon">
+						<img class="technologies-icon" src="assets/images/technologies/git-icon.svg" alt="git-icon">
+						<img class="technologies-icon" src="assets/images/technologies/github-icon.svg" alt="github-icon">
+						<img class="technologies-icon" src="assets/images/technologies/gitlab-icon.svg" alt="gitlab-icon">
+						<img class="technologies-icon" src="assets/images/technologies/trello-icon.svg" alt="trello-icon">
+						<img class="technologies-icon" src="assets/images/technologies/visualstudio-icon.svg" alt="visualstudio-icon">
+						<!-- end technologies logo -->
 
-							<!-- start inner technologies heading -->
-							<div class="col-12">
-								<h4 class="font-color-black mt-5 mb-3 text-center">Education</h4>
-							</div> <!-- end inner technologies heading -->
+						<!-- start inner technologies heading -->
+						<div class="col-12">
+							<h4 class="font-color-black mt-5 mb-3 text-center">Education</h4>
+						</div> <!-- end inner technologies heading -->
 
-							<!-- start technologies logos -->
-							<img class="technologies-icon" src="assets/images/education/tuitt.png" alt="tuitt">
-							<img class="technologies-icon" src="assets/images/education/dls-csb.png" alt="de la salle - college of saint benilde">
-							<img class="technologies-icon" src="assets/images/education/dbti.png" alt="don bosco technical institute">
-							<!-- end technologies logo -->
+						<!-- start education logos -->
+						<img class="technologies-icon" src="assets/images/education/tuitt.png" alt="tuitt">
+						<img class="technologies-icon" src="assets/images/education/dls-csb.png" alt="de la salle - college of saint benilde">
+						<img class="technologies-icon" src="assets/images/education/dbti.png" alt="don bosco technical institute">
+						<!-- end education logo -->
 
-						</div> <!-- end inner technologies row -->
-
-					</div> <!-- end about technologies holder -->
+					</div> <!-- end inner technologies row -->
 
 				</div> <!-- end about technologies -->
 

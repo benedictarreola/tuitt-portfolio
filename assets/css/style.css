@@ -44,6 +44,12 @@ html {
 
 /*end for testing only*/
 
+.clear {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
 /*start colors*/
 
 /*start background colors*/
