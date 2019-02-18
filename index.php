@@ -212,7 +212,7 @@
 
 									<div class="held p-3">
 										<h5 class="font-color-secondary mb-3"><small>Asset Management <span class="text-muted">(Bootstrap, JS, Laravel)</span></small></h5>
-										<a class="btn projects-btn" href="https://tuitt-capstone2.herokuapp.com/" target="_blank">View Demo</a>
+										<a class="btn projects-btn" href="https://pastflix.000webhostapp.com/" target="_blank">View Demo</a>
 									</div>
 								</div>
 								<h4 class="font-color-black text-center p-2">Pastflix</h4>
@@ -224,7 +224,7 @@
 
 									<div class="held p-3">
 										<h5 class="font-color-secondary mb-3"><small>E-commerce <span class="text-muted">(Bootstrap, jQuery, PHP)</span></small></h5>
-										<a class="btn projects-btn" href="https://tuitt-wtf.herokuapp.com/app/views/home.php" target="_blank">View Demo</a>
+										<a class="btn projects-btn" href="https://wtf-ecommerce.000webhostapp.com/" target="_blank">View Demo</a>
 									</div>
 								</div>
 								<h4 class="font-color-black text-center p-2">Where's The Food?</h4>
