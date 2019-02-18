@@ -48,7 +48,6 @@ $(document).ready( function() {
 			        Swal.fire({
 			        	html: 'Successfully Sent. Please check your Email',
 			        	showConfirmButton: true,
-			        	confirmButtonClass: 'btn confirm-message-btn',
 			        	allowEnterKey: false
 			        });
 			    }
